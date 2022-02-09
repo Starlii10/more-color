@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="MIT License"
+
+[[mods]]
+modId="more_color"
+version="0.1.1"
+displayName="More Color"
+credits="MCreator for helping to make the mod"
+displayURL="https://mcreator.net"
+authors="WiseDragoon5374"
+description='''
+Adds a lot of colorful stairs, slabs, and new recipes to make building just a little bit brighter.
+'''
+
+[[dependencies.more_color]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

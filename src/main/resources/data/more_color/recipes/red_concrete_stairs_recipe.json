@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:red_concrete"
+    },
+    "4": {
+      "item": "minecraft:red_concrete"
+    },
+    "5": {
+      "item": "minecraft:red_concrete"
+    },
+    "6": {
+      "item": "minecraft:red_concrete"
+    },
+    "7": {
+      "item": "minecraft:red_concrete"
+    },
+    "8": {
+      "item": "minecraft:red_concrete"
+    }
+  },
+  "result": {
+    "item": "more_color:red_concrete_stairs",
+    "count": 4
+  }
+}

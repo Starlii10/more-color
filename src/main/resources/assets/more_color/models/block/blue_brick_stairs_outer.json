@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "more_color:blocks/bluebrick",
+    "top": "more_color:blocks/bluebrick",
+    "side": "more_color:blocks/bluebrick"
+  }
+}

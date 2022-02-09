@@ -1,0 +1,12 @@
+{
+  "amongus": {
+    "category": "player",
+    "subtitle": "subtitles.amongus",
+    "sounds": [
+      {
+        "name": "more_color:guy_yelling_among_us",
+        "stream": false
+      }
+    ]
+  }
+}

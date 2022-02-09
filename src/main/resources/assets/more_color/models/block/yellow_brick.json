@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_color:blocks/yellowbrick",
+    "up": "more_color:blocks/yellowbrick",
+    "north": "more_color:blocks/yellowbrick",
+    "east": "more_color:blocks/yellowbrick",
+    "south": "more_color:blocks/yellowbrick",
+    "west": "more_color:blocks/yellowbrick",
+    "particle": "more_color:blocks/yellowbrick"
+  }
+}

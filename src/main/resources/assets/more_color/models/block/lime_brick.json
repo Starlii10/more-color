@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_color:blocks/limebrick",
+    "up": "more_color:blocks/limebrick",
+    "north": "more_color:blocks/limebrick",
+    "east": "more_color:blocks/limebrick",
+    "south": "more_color:blocks/limebrick",
+    "west": "more_color:blocks/limebrick",
+    "particle": "more_color:blocks/limebrick"
+  }
+}

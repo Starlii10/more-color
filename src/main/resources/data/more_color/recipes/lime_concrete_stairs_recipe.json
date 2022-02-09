@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:lime_concrete"
+    },
+    "4": {
+      "item": "minecraft:lime_concrete"
+    },
+    "5": {
+      "item": "minecraft:lime_concrete"
+    },
+    "6": {
+      "item": "minecraft:lime_concrete"
+    },
+    "7": {
+      "item": "minecraft:lime_concrete"
+    },
+    "8": {
+      "item": "minecraft:lime_concrete"
+    }
+  },
+  "result": {
+    "item": "more_color:lime_concrete_stairs",
+    "count": 4
+  }
+}
