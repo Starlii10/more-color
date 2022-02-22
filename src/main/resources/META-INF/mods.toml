@@ -4,10 +4,11 @@ license="MIT License"
 
 [[mods]]
 modId="more_color"
-version="0.1.1"
+version="0.1.0"
 displayName="More Color"
 credits="MCreator for helping to make the mod"
-displayURL="https://mcreator.net"
+displayURL="https://github.com/WiseDragoon5374/more-color"
+logoFile="logo.png"
 authors="WiseDragoon5374"
 description='''
 Adds a lot of colorful stairs, slabs, and new recipes to make building just a little bit brighter.

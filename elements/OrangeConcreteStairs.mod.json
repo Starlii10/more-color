@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "concrete_green",
+    "texture": "concrete_orange",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Green Concrete Stairs",
+    "name": "Orange Concrete Stairs",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

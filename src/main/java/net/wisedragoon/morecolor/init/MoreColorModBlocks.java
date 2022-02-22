@@ -14,6 +14,11 @@ import net.wisedragoon.morecolor.block.RedConcreteSlabBlock;
 import net.wisedragoon.morecolor.block.RedBrickStairsBlock;
 import net.wisedragoon.morecolor.block.RedBrickSlabBlock;
 import net.wisedragoon.morecolor.block.RedBrickBlock;
+import net.wisedragoon.morecolor.block.OrangeConcreteStairsBlock;
+import net.wisedragoon.morecolor.block.OrangeConcreteSlabBlock;
+import net.wisedragoon.morecolor.block.OrangeBrickStairsBlock;
+import net.wisedragoon.morecolor.block.OrangeBrickSlabBlock;
+import net.wisedragoon.morecolor.block.OrangeBrickBlock;
 import net.wisedragoon.morecolor.block.LimeConcreteStairsBlock;
 import net.wisedragoon.morecolor.block.LimeConcreteSlabBlock;
 import net.wisedragoon.morecolor.block.LimeBrickStairsBlock;
@@ -79,6 +84,11 @@ public class MoreColorModBlocks {
 	public static final Block LIGHT_BLUE_BRICK_STAIRS = register(new LightBlueBrickStairsBlock());
 	public static final Block LIGHT_BLUE_BRICK_SLAB = register(new LightBlueBrickSlabBlock());
 	public static final Block LIGHT_BLUE_CONCRETE_STAIRS = register(new LightBlueConcreteStairsBlock());
+	public static final Block ORANGE_CONCRETE_SLAB = register(new OrangeConcreteSlabBlock());
+	public static final Block ORANGE_CONCRETE_STAIRS = register(new OrangeConcreteStairsBlock());
+	public static final Block ORANGE_BRICK = register(new OrangeBrickBlock());
+	public static final Block ORANGE_BRICK_STAIRS = register(new OrangeBrickStairsBlock());
+	public static final Block ORANGE_BRICK_SLAB = register(new OrangeBrickSlabBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -100,6 +110,7 @@ public class MoreColorModBlocks {
 			YellowConcreteSlabBlock.registerRenderLayer();
 			LimeConcreteSlabBlock.registerRenderLayer();
 			LightBlueConcreteSlabBlock.registerRenderLayer();
+			OrangeConcreteSlabBlock.registerRenderLayer();
 		}
 	}
 }

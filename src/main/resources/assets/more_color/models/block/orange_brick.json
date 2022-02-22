@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_color:blocks/orangebrick",
+    "up": "more_color:blocks/orangebrick",
+    "north": "more_color:blocks/orangebrick",
+    "east": "more_color:blocks/orangebrick",
+    "south": "more_color:blocks/orangebrick",
+    "west": "more_color:blocks/orangebrick",
+    "particle": "more_color:blocks/orangebrick"
+  }
+}

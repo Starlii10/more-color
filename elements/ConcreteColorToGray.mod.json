@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 8,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CONCRETE_POWDER"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER"
+      },
+      {
+        "value": "Items.DYE#8"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.CONCRETE#7"
+    },
+    "name": "concrete_color_to_gray",
+    "namespace": "mod"
+  }
+}

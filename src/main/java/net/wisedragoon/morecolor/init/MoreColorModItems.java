@@ -50,6 +50,11 @@ public class MoreColorModItems {
 	public static final Item LIGHT_BLUE_BRICK_SLAB = register(MoreColorModBlocks.LIGHT_BLUE_BRICK_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item LIGHT_BLUE_CONCRETE_STAIRS = register(MoreColorModBlocks.LIGHT_BLUE_CONCRETE_STAIRS,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item ORANGE_CONCRETE_SLAB = register(MoreColorModBlocks.ORANGE_CONCRETE_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item ORANGE_CONCRETE_STAIRS = register(MoreColorModBlocks.ORANGE_CONCRETE_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item ORANGE_BRICK = register(MoreColorModBlocks.ORANGE_BRICK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item ORANGE_BRICK_STAIRS = register(MoreColorModBlocks.ORANGE_BRICK_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item ORANGE_BRICK_SLAB = register(MoreColorModBlocks.ORANGE_BRICK_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

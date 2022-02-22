@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "concrete_green",
+    "texture": "orangebrick",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -15,7 +15,7 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Stairs",
+    "blockBase": "Slab",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Green Concrete Stairs",
+    "name": "Orange Brick Slab",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,

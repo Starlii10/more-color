@@ -2,20 +2,19 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "concrete_green",
+    "texture": "orangebrick",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Stairs",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -33,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Green Concrete Stairs",
+    "name": "Orange Brick",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -51,7 +50,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
       "value": "ROCK"
     },

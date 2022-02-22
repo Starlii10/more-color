@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "more_color:blocks/concrete_orange",
+    "top": "more_color:blocks/concrete_orange",
+    "side": "more_color:blocks/concrete_orange"
+  }
+}

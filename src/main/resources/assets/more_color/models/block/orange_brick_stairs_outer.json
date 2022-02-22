@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "more_color:blocks/orangebrick",
+    "top": "more_color:blocks/orangebrick",
+    "side": "more_color:blocks/orangebrick"
+  }
+}
