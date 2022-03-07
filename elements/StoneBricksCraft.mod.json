@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "Blocks.BRICK_BLOCK"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.BRICK_BLOCK"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      },
+      {
+        "value": "Blocks.BRICK_BLOCK"
+      },
+      {
+        "value": "Blocks.BRICK_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.STONEBRICK#0"
+    },
+    "name": "stone_bricks_craft",
+    "namespace": "mod"
+  }
+}

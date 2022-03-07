@@ -11,9 +11,6 @@ import net.wisedragoon.morecolor.block.YellowBrickSlabBlock;
 import net.wisedragoon.morecolor.block.YellowBrickBlock;
 import net.wisedragoon.morecolor.block.RedConcreteStairsBlock;
 import net.wisedragoon.morecolor.block.RedConcreteSlabBlock;
-import net.wisedragoon.morecolor.block.RedBrickStairsBlock;
-import net.wisedragoon.morecolor.block.RedBrickSlabBlock;
-import net.wisedragoon.morecolor.block.RedBrickBlock;
 import net.wisedragoon.morecolor.block.OrangeConcreteStairsBlock;
 import net.wisedragoon.morecolor.block.OrangeConcreteSlabBlock;
 import net.wisedragoon.morecolor.block.OrangeBrickStairsBlock;
@@ -39,6 +36,11 @@ import net.wisedragoon.morecolor.block.BlueConcreteSlabBlock;
 import net.wisedragoon.morecolor.block.BlueBrickStairsBlock;
 import net.wisedragoon.morecolor.block.BlueBrickSlabBlock;
 import net.wisedragoon.morecolor.block.BlueBrickBlock;
+import net.wisedragoon.morecolor.block.BlackConcreteStairsBlock;
+import net.wisedragoon.morecolor.block.BlackConcreteSlabBlock;
+import net.wisedragoon.morecolor.block.BlackBrickStairsBlock;
+import net.wisedragoon.morecolor.block.BlackBrickSlabBlock;
+import net.wisedragoon.morecolor.block.BlackBrickBlock;
 
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -54,7 +56,6 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MoreColorModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
-	public static final Block RED_BRICK = register(new RedBrickBlock());
 	public static final Block BLUE_BRICK = register(new BlueBrickBlock());
 	public static final Block GREEN_BRICK = register(new GreenBrickBlock());
 	public static final Block LIME_BRICK = register(new LimeBrickBlock());
@@ -65,12 +66,10 @@ public class MoreColorModBlocks {
 	public static final Block RED_CONCRETE_STAIRS = register(new RedConcreteStairsBlock());
 	public static final Block BLUE_CONCRETE_STAIRS = register(new BlueConcreteStairsBlock());
 	public static final Block GREEN_CONCRETE_STAIRS = register(new GreenConcreteStairsBlock());
-	public static final Block RED_BRICK_STAIRS = register(new RedBrickStairsBlock());
 	public static final Block BLUE_BRICK_STAIRS = register(new BlueBrickStairsBlock());
 	public static final Block GREEN_BRICK_STAIRS = register(new GreenBrickStairsBlock());
 	public static final Block YELLOW_BRICK_STAIRS = register(new YellowBrickStairsBlock());
 	public static final Block LIME_BRICK_STAIRS = register(new LimeBrickStairsBlock());
-	public static final Block RED_BRICK_SLAB = register(new RedBrickSlabBlock());
 	public static final Block BLUE_BRICK_SLAB = register(new BlueBrickSlabBlock());
 	public static final Block GREEN_BRICK_SLAB = register(new GreenBrickSlabBlock());
 	public static final Block YELLOW_BRICK_SLAB = register(new YellowBrickSlabBlock());
@@ -89,6 +88,11 @@ public class MoreColorModBlocks {
 	public static final Block ORANGE_BRICK = register(new OrangeBrickBlock());
 	public static final Block ORANGE_BRICK_STAIRS = register(new OrangeBrickStairsBlock());
 	public static final Block ORANGE_BRICK_SLAB = register(new OrangeBrickSlabBlock());
+	public static final Block BLACK_BRICK = register(new BlackBrickBlock());
+	public static final Block BLACK_BRICK_STAIRS = register(new BlackBrickStairsBlock());
+	public static final Block BLACK_BRICK_SLAB = register(new BlackBrickSlabBlock());
+	public static final Block BLACK_CONCRETE_SLAB = register(new BlackConcreteSlabBlock());
+	public static final Block BLACK_CONCRETE_STAIRS = register(new BlackConcreteStairsBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -111,6 +115,7 @@ public class MoreColorModBlocks {
 			LimeConcreteSlabBlock.registerRenderLayer();
 			LightBlueConcreteSlabBlock.registerRenderLayer();
 			OrangeConcreteSlabBlock.registerRenderLayer();
+			BlackConcreteSlabBlock.registerRenderLayer();
 		}
 	}
 }

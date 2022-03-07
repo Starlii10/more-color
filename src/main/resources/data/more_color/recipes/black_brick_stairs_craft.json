@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "more_color:black_brick"
+    },
+    "4": {
+      "item": "more_color:black_brick"
+    },
+    "5": {
+      "item": "more_color:black_brick"
+    },
+    "6": {
+      "item": "more_color:black_brick"
+    },
+    "7": {
+      "item": "more_color:black_brick"
+    },
+    "8": {
+      "item": "more_color:black_brick"
+    }
+  },
+  "result": {
+    "item": "more_color:black_brick_stairs",
+    "count": 4
+  }
+}

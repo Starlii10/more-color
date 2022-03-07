@@ -19,7 +19,6 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class MoreColorModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
-	public static final Item RED_BRICK = register(MoreColorModBlocks.RED_BRICK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item BLUE_BRICK = register(MoreColorModBlocks.BLUE_BRICK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item GREEN_BRICK = register(MoreColorModBlocks.GREEN_BRICK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item LIME_BRICK = register(MoreColorModBlocks.LIME_BRICK, CreativeModeTab.TAB_BUILDING_BLOCKS);
@@ -30,12 +29,10 @@ public class MoreColorModItems {
 	public static final Item RED_CONCRETE_STAIRS = register(MoreColorModBlocks.RED_CONCRETE_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item BLUE_CONCRETE_STAIRS = register(MoreColorModBlocks.BLUE_CONCRETE_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item GREEN_CONCRETE_STAIRS = register(MoreColorModBlocks.GREEN_CONCRETE_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final Item RED_BRICK_STAIRS = register(MoreColorModBlocks.RED_BRICK_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item BLUE_BRICK_STAIRS = register(MoreColorModBlocks.BLUE_BRICK_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item GREEN_BRICK_STAIRS = register(MoreColorModBlocks.GREEN_BRICK_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item YELLOW_BRICK_STAIRS = register(MoreColorModBlocks.YELLOW_BRICK_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item LIME_BRICK_STAIRS = register(MoreColorModBlocks.LIME_BRICK_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final Item RED_BRICK_SLAB = register(MoreColorModBlocks.RED_BRICK_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item BLUE_BRICK_SLAB = register(MoreColorModBlocks.BLUE_BRICK_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item GREEN_BRICK_SLAB = register(MoreColorModBlocks.GREEN_BRICK_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item YELLOW_BRICK_SLAB = register(MoreColorModBlocks.YELLOW_BRICK_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
@@ -55,6 +52,11 @@ public class MoreColorModItems {
 	public static final Item ORANGE_BRICK = register(MoreColorModBlocks.ORANGE_BRICK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item ORANGE_BRICK_STAIRS = register(MoreColorModBlocks.ORANGE_BRICK_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item ORANGE_BRICK_SLAB = register(MoreColorModBlocks.ORANGE_BRICK_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item BLACK_BRICK = register(MoreColorModBlocks.BLACK_BRICK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item BLACK_BRICK_STAIRS = register(MoreColorModBlocks.BLACK_BRICK_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item BLACK_BRICK_SLAB = register(MoreColorModBlocks.BLACK_BRICK_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item BLACK_CONCRETE_SLAB = register(MoreColorModBlocks.BLACK_CONCRETE_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item BLACK_CONCRETE_STAIRS = register(MoreColorModBlocks.BLACK_CONCRETE_STAIRS, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
