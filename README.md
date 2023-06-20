@@ -1,5 +1,5 @@
 # More Color
-Adds a lot of colorful stairs, slabs, and new recipes to make building just a little bit brighter.
+A Minecraft mod that adds a lot of colorful stairs, slabs, and new recipes to make building just a little bit brighter.
 
 Features:
 
